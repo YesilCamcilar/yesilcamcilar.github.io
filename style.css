@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f3ecdb;
+  color: #3e503c;
+  font-family: 'Raleway';
+  overflow-x: hidden;
+}
+
+#welcomer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+}
+
+#welcomer #header {
+  font-family: 'Pacifico';
+  color: #ff6f3d;
+  font-size: 75px;
+  margin: 30px;
+}
+
+#welcomer #welcome {
+  font-weight: 600;
+  font-size: 50px;
+  margin: 0 0 0 0;
+}
+
+#content {
+  margin: 25px 0 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+#content #title {
+  margin: 50px 0 0 0;
+  font-size: 35px;
+}
+
+#content #founder img {
+  margin: 20px 0 20px 0;
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+  border: solid 3px #7f886a;
+}
+
+#content #founder p {
+  font-size: 20px;
+}
+
+#content #members {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#content #members #container img {
+  margin: 20px 0 20px 0;
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+  border: solid 3px #7f886a;
+}
+
+#content #members #container p {
+  font-size: 20px;
+}
+
+#footer {
+  font-size: 20px;
+  margin: 20px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

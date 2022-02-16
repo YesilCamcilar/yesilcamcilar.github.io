@@ -1,0 +1,92 @@
+//! Fonts
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+$bgcolor: #f3ecdb;
+$fgcolor: #3e503c;
+$accent: #ff6f3d;
+$secondary: #7f886a;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: $bgcolor;
+	color: $fgcolor;
+	font-family: 'Raleway';
+	overflow-x: hidden;
+}
+
+#welcomer {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	justify-content: space-evenly;
+	text-align: center;
+
+	#header {
+		font-family: 'Pacifico';
+		color: $accent;
+		font-size: 75px;
+		margin: 30px;
+	}
+
+	#welcome {
+		font-weight: 600;
+		font-size: 50px;
+		margin: 0 0 0 0;
+	}
+}
+
+#content {
+	margin: 25px 0 50px 0;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+
+	#title {
+		margin: 50px 0 0 0;
+		font-size: 35px;
+	}
+
+	#founder {
+		img {
+			margin: 20px 0 20px 0;
+			width: 300px;
+			height: auto;
+			border-radius: 50%;
+			border: solid 3px $secondary;
+		}
+
+		p {
+			font-size: 20px;
+		}
+	}
+
+	#members {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		#container {
+			img {
+				margin: 20px 0 20px 0;
+				width: 300px;
+				height: auto;
+				border-radius: 50%;
+				border: solid 3px $secondary;
+			}
+
+			p {
+				font-size: 20px;
+			}
+		}
+	}
+}
+
+#footer {
+	font-size: 20px;
+	margin: 20px;
+	text-align: center;
+}
